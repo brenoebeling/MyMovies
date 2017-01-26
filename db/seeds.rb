@@ -12,6 +12,18 @@
     {title: "Raiders of the Lost Ark", release_date: '12-Jun-1981'}
   ]
 
+
+  actors = [
+    {name: "Will Smith", gender: "male", birthdate:"25-Sep-1968"},
+    {name: "Angelina Jolie", gender: "female", birthdate:"4-Jun-1975"},
+    {name: "Margot Robbie", gender: "female", birthdate: "2-Jul-1990" }
+  ]
+
+  directors = [
+    {name: "Quentin Tarantino", gender: "male", birthdate:"27-Mar-1963"},
+    {name: "Mel Gibson", gender: "male", birthdate: "3-Jan-1956"}
+  ]
+
   movies.each do |movie|
     Movie.create!(movie)
   end

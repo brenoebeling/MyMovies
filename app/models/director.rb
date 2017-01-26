@@ -1,3 +1,3 @@
-class Director < Professional::Base
+class Director < Professional
 
 end

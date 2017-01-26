@@ -1,3 +1,3 @@
-class Actor < Professional::Base
+class Actor < Professional
 
 end
